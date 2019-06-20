@@ -1,16 +1,50 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:2.3"
+    }
+}
+
 plugins {
     id 'java'
+    id "io.qameta.allure" version "2.7.0"
 }
 
 group 'GojekAssignment'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
-
+def allureVersion = '2.9.0'
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.14.0'
+    // https://mvnrepository.com/artifact/org.testng/testng
+    compile group: 'org.testng', name: 'testng', version: '6.14.3'
+    // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
+    compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '3.4.0'
+    // Logger
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.2'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.2'
+}
+
+test {
+    useTestNG() {
+
+        suites "src/test/java/TestObject/TestNg.xml"
+    }
+    reports.html.enabled = true
+}
+
+allure {
+    version = allureVersion
+    useTestNG {
+        version = allureVersion
+    }
+    downloadLink = "http://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/$allureVersion/allure-commandline-$allureVersion"+".zip"
 }
