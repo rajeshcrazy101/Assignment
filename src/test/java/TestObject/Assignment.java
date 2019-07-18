@@ -36,7 +36,7 @@ public class Assignment extends TestBase {
 
     }
 
-    @Test(groups = "Sanity",description = "Browse add to cart test")
+    @Test(groups = "Sanity")
     public void ProductAddAndCartTest() {
 
         TestDomMethods domMethods = new TestDomMethods(driver);
@@ -85,7 +85,7 @@ public class Assignment extends TestBase {
 
     }
 
-    @Test(groups = "Sanity",description = "Cart page test")
+    @Test(groups = "Sanity")
     public void CartPageTest(){
 
         TestDomMethods domMethods=new TestDomMethods(driver);

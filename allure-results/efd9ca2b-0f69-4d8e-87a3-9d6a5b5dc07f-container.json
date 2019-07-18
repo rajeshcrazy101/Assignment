@@ -1,1 +1,0 @@
-{"uuid":"efd9ca2b-0f69-4d8e-87a3-9d6a5b5dc07f","name":"TestObject.Assignment","children":["adcb8391-312c-4d91-bc42-9fcefd8f82a2"],"befores":[{"name":"initObject","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1560771462545,"stop":1560771491079}],"afters":[],"links":[],"start":1560771462502,"stop":1560771501521}

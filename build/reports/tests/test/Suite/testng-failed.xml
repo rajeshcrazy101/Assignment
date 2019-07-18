@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="chromeTest(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestObject.Assignment">
+        <methods>
+          <include name="tearDown"/>
+          <include name="driverInit"/>
+          <include name="CartPageTest"/>
+          <include name="initObject"/>
+          <include name="ProductAddAndCartTest"/>
+        </methods>
+      </class> <!-- TestObject.Assignment -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
