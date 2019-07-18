@@ -10,7 +10,7 @@
         </groups>
         <classes>
             <class name="TestObject.Assignment"></class>
-            <class name="TestObject.DataProviderClass"></class>
+            <class name="TestObject.MultipleSearchAssignment"></class>
         </classes>
     </test>
 </suite>

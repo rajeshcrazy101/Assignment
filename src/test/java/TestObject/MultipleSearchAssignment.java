@@ -9,7 +9,7 @@ public class MultipleSearchAssignment extends TestBase {
 
     Logger logger=Logger.getLogger(MultipleSearchAssignment.class);
 
-    @Test(dataProvider="searchData",dataProviderClass = DataProviderClass.class)
+    @Test(groups = "Sanity",dataProvider="searchData",dataProviderClass = DataProviderClass.class)
     public void MultipleSearchTest(String searchWork,String landingPage){
 
         TestDomMethods domMethods=new TestDomMethods(driver);

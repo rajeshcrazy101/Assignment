@@ -61,7 +61,7 @@ public class Assignment extends TestBase {
             Assert.assertTrue(domMethods.isDealDisplayed(),"Item is not added on cart.");
     }
 
-    @Test(description = "Search add to cart test")
+    @Test(groups = "Sanity")
     public void SearchAddToCartTest(){
 
         TestDomMethods domMethods=new TestDomMethods(driver);
