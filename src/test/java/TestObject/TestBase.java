@@ -24,11 +24,9 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     private Properties config;
     public Properties testConfig;
-    private String browser,platform;
+    private String platform;
     public RemoteWebDriver driver;
     public AppiumDriver appiumDriver;
-    String androidAppPath=null;
-    String androidAppName=null;
 
     @BeforeClass(alwaysRun = true)
     public void initObject(){
@@ -65,11 +63,10 @@ public class TestBase {
     }
 
     private void selectBrowser(){
-        browser=config.getProperty("browser");
-        platform=config.getProperty("PLATFROM");
-        if (browser.equalsIgnoreCase("chrome")){
+        platform=config.getProperty("PLATFORM");
+        if (platform.equalsIgnoreCase("chrome")){
             WebDriverManager.chromedriver().setup();
-        }else if (browser.equalsIgnoreCase("firefox")){
+        }else if (platform.equalsIgnoreCase("firefox")){
             WebDriverManager.firefoxdriver().setup();
         }
     }
@@ -77,13 +74,13 @@ public class TestBase {
     private void initiateDriver(){
         DesiredCapabilities capabilities=null;
 
-        if (browser.equalsIgnoreCase("chrome")){
+        if (platform.equalsIgnoreCase("chrome")){
             capabilities=DesiredCapabilities.chrome();
-        }else if (browser.equalsIgnoreCase("firefox")){
+        }else if (platform.equalsIgnoreCase("firefox")){
             capabilities=DesiredCapabilities.firefox();
         }else if (platform.equalsIgnoreCase("ANDROID")){
-            File appDir = new File(androidAppPath);
-            File app = new File(appDir, androidAppName);
+            File appDir = new File(config.getProperty("androidAppPath"));
+            File app = new File(appDir, config.getProperty("androidAppName"));
             capabilities=new DesiredCapabilities();
             capabilities.setCapability("deviceName", "ZY223RG6L3");
             capabilities.setCapability("platformName", "Android");
