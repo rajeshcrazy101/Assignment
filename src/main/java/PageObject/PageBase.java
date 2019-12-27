@@ -33,6 +33,7 @@ public class PageBase {
 
     public WebElement findElement(String locator,String value){
         return driver.findElement(setValueForLocatorAndPath(locator,value));
+
     }
 
     public List<WebElement> findElements(String locator,String value){

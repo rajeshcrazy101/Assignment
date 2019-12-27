@@ -1,6 +1,7 @@
 package TestObject;
 
 import PageObject.TestDomMethods;
+import PageObject.appDOMTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -103,6 +104,18 @@ public class Assignment extends TestBase {
         domMethods.clickOnCheckout();
         logger.info("Validating did the order is placed successfully.");
         Assert.assertTrue(domMethods.isCheckoutDisplayed(),"Checkout page not displayed.");
+
+    }
+
+    @Test
+    public void testApp(){
+
+        appDOMTest appDOMTest=new appDOMTest(appiumDriver);
+
+        //appDOMTest.clickSkip();
+        appDOMTest.isHomePageloaded();
+
+
 
     }
 }

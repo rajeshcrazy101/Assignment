@@ -24,6 +24,8 @@ dependencies {
     compile group: 'org.apache.maven.plugins', name: 'maven-surefire-report-plugin', version: '3.0.0-M3'
     // https://mvnrepository.com/artifact/io.appium/java-client
     compile group: 'io.appium', name: 'java-client', version: '6.1.0'
+    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+    testCompile group: 'io.rest-assured', name: 'rest-assured', version: '3.0.0'
 
 }
 

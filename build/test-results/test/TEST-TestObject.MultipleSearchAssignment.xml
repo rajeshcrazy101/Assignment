@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestObject.MultipleSearchAssignment" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-07-19T05:28:09" hostname="QMAC0313.local" time="16.553">
+  <properties/>
+  <testcase name="MultipleSearchTest[0](wireless headphone, wireless)" classname="TestObject.MultipleSearchAssignment" time="5.55"/>
+  <testcase name="MultipleSearchTest[1](apple mobile phone, mobile)" classname="TestObject.MultipleSearchAssignment" time="5.293"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jul 19, 2019 10:58:03 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jul 19, 2019 10:58:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

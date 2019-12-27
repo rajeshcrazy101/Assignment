@@ -1,7 +1,5 @@
 package PageObject;
 
-import org.openqa.selenium.ElementNotVisibleException;
-import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -234,5 +232,4 @@ public class TestDomMethods extends PageBase {
     public boolean isCheckoutDisplayed(){
         return ischeckout.isDisplayed();
     }
-
 }
