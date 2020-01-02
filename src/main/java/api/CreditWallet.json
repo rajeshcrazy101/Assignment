@@ -1,0 +1,21 @@
+{
+  "walletId":"400000137382",
+  "amount":"3000",
+  "transactionAgainst":"Amount Credited for the purpose of automation Testing",
+  "noCommunication":"true",
+  "transactionDetails":
+  [{
+    "clientMerchant":"MERESC001",
+    "clientTransactionId":"9999997412",
+    "pg":"102",
+    "pgTransactionId":"200000004814",
+    "immediateRefund":false,
+    "amount":"3000",
+    "refundExpiryDate":"",
+    "creditType":"2",
+    "promotionDetails":{
+      "promotionUsageType":"ESCROW_ONLY",
+      "promotionExpiryDate":"1546237800"
+    }
+  }]
+}

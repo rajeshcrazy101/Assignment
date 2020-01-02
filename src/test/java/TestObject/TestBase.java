@@ -46,7 +46,7 @@ public class TestBase {
     private void intiConfig(){
         config=new Properties();
         try {
-        config.load(new FileReader("src/config.properties"));
+        config.load(new FileReader("src/main/resources/config.properties"));
     } catch (IOException e) {
         e.printStackTrace();
     }
@@ -56,7 +56,7 @@ public class TestBase {
     public void initTestData(){
         testConfig=new Properties();
         try {
-            testConfig.load(new FileReader("src/testConfig.properties"));
+            testConfig.load(new FileReader("src/main/resources/testConfig.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }

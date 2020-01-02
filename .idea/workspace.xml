@@ -2,34 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecf4afa8-89f1-489c-955e-4a879d43293b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/appDOMTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/mPageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/CreateWallet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/CreditWallet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ApiTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/CreateWalletTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TestObject.Assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TestObject.Assignment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/TestObject.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/TestObject.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TestObject.Assignment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TestObject.Assignment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/PageObject/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/PageObject/PageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/PageObject/TestDomMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/TestObject/Assignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TestObject/Assignment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/TestObject/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TestObject/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/TestObject/TestNg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/TestDomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/TestDomMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestObject/Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestObject/Assignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestObject/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestObject/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testConfig.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,27 +48,29 @@
     <session id="1473987140">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bat" value="1" />
           <entry key="class" value="1" />
-          <entry key="gradle" value="2" />
+          <entry key="gradle" value="3" />
           <entry key="gradlew" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="36" />
+          <entry key="java" value="56" />
+          <entry key="json" value="3" />
           <entry key="properties" value="4" />
           <entry key="xml" value="4" />
         </counts>
@@ -87,9 +78,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Groovy" value="2" />
+          <entry key="Groovy" value="3" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="36" />
+          <entry key="JAVA" value="56" />
+          <entry key="JSON" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="4" />
@@ -98,19 +90,21 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="29" />
-          <entry key="gradle" value="229" />
-          <entry key="java" value="8252" />
-          <entry key="properties" value="249" />
-          <entry key="xml" value="47" />
+          <entry key="gradle" value="232" />
+          <entry key="java" value="11388" />
+          <entry key="json" value="11" />
+          <entry key="properties" value="354" />
+          <entry key="xml" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="229" />
-          <entry key="JAVA" value="8252" />
+          <entry key="Groovy" value="232" />
+          <entry key="JAVA" value="11388" />
+          <entry key="JSON" value="11" />
           <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Properties" value="249" />
-          <entry key="XML" value="47" />
+          <entry key="Properties" value="354" />
+          <entry key="XML" value="52" />
         </counts>
       </usages-collector>
     </session>
@@ -118,81 +112,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/TestNg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="94" column="17" lean-forward="true" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#6308#6309#0" expanded="true" />
-                <element signature="e#6353#6354#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/TestDomMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3797#3798#0" expanded="true" />
-                <element signature="e#3844#3845#0" expanded="true" />
-                <element signature="e#7349#7350#0" expanded="true" />
-                <element signature="e#7396#7397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/Assignment.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/api/CreateWalletTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            <state relative-caret-position="1965">
+              <caret line="131" column="64" lean-forward="true" selection-start-line="131" selection-start-column="64" selection-end-line="131" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#832#848#0" expanded="true" />
+                <element signature="e#1733#1749#0" expanded="true" />
+                <element signature="e#3332#3348#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/MultipleSearchAssignment.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/api/CreditWallet.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="15">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/ApiTestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,6 +186,7 @@
       <find>Sanity</find>
       <find>androidAppPath</find>
       <find>mURL</find>
+      <find>clientTransactionId</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -399,9 +370,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4697754609000" />
+        <entry key="$PROJECT_DIR$" value="4699298378000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3262319381" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1787283338" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2034103494" />
       </map>
@@ -528,20 +499,27 @@
         <option value="$PROJECT_DIR$/src/test/java/TestObject/goGekTestNg.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestObject/test.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestObject/test1NG.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/TestObject/TestNg.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestObject/MultipleSearchAssignment.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObject/PageBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObject/TestDomMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObject/mPageBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObject/appDOMTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestObject/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObject/TestDomMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestObject/TestNg.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestObject/Assignment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObject/PageBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/CreateWallet.json" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/PropertyReader.java" />
+        <option value="$PROJECT_DIR$/src/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/TestObject/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/api/CreditWallet.json" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/ApiTestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Database.java" />
+        <option value="$PROJECT_DIR$/src/test/java/api/CreateWalletTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="723" />
@@ -552,9 +530,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -584,14 +559,6 @@
               <item name="GojekAssignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="GojekAssignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PageObject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GojekAssignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GojekAssignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -600,28 +567,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GojekAssignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GojekAssignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestObject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577366409153" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577943569891" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.3229885" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -635,8 +602,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Assignment.ProductAddAndCartTest">
-    <configuration name="Assignment" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreateWalletTest.caseCadetWalletTest">
+    <configuration name="Assignment (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GojekAssignment_test" />
       <extension name="coverage">
         <pattern>
@@ -646,25 +613,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestObject" />
       <option name="MAIN_CLASS_NAME" value="TestObject.Assignment" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assignment.ProductAddAndCartTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateWalletTest.caseCadetWalletTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GojekAssignment_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestObject.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestObject" />
-      <option name="MAIN_CLASS_NAME" value="TestObject.Assignment" />
-      <option name="METHOD_NAME" value="ProductAddAndCartTest" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.CreateWalletTest" />
+      <option name="METHOD_NAME" value="caseCadetWalletTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -672,37 +637,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assignment.SearchAddToCartTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateWalletTest.createWalletTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GojekAssignment_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestObject.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestObject" />
-      <option name="MAIN_CLASS_NAME" value="TestObject.Assignment" />
-      <option name="METHOD_NAME" value="SearchAddToCartTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Assignment.testApp" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="GojekAssignment_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestObject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestObject" />
-      <option name="MAIN_CLASS_NAME" value="TestObject.Assignment" />
-      <option name="METHOD_NAME" value="testApp" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.CreateWalletTest" />
+      <option name="METHOD_NAME" value="createWalletTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -710,21 +655,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/rajeshv/Documents/UIAutomation/javawebAutomation/GojekAssignment/src/test/java/TestObject/TestNg.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateWalletTest.creditWalletTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GojekAssignment_test" />
-      <shortenClasspath name="CLASSPATH_FILE" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestObject/TestNg.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" value="0" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/build/reports/tests/test" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.CreateWalletTest" />
+      <option name="METHOD_NAME" value="creditWalletTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateWalletTest.getWalletDetailsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GojekAssignment_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.CreateWalletTest" />
+      <option name="METHOD_NAME" value="getWalletDetailsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -732,19 +692,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG./Users/rajeshv/Documents/UIAutomation/javawebAutomation/GojekAssignment/src/test/java/TestObject/TestNg.xml" />
-      <item itemvalue="TestNG.Assignment" />
-      <item itemvalue="TestNG.Assignment.SearchAddToCartTest" />
-      <item itemvalue="TestNG.Assignment.testApp" />
-      <item itemvalue="TestNG.Assignment.ProductAddAndCartTest" />
+      <item itemvalue="TestNG.Assignment (1)" />
+      <item itemvalue="TestNG.CreateWalletTest.createWalletTest" />
+      <item itemvalue="TestNG.CreateWalletTest.getWalletDetailsTest" />
+      <item itemvalue="TestNG.CreateWalletTest.creditWalletTest" />
+      <item itemvalue="TestNG.CreateWalletTest.caseCadetWalletTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Assignment.ProductAddAndCartTest" />
-        <item itemvalue="TestNG.Assignment.testApp" />
-        <item itemvalue="TestNG.Assignment.SearchAddToCartTest" />
-        <item itemvalue="TestNG.Assignment" />
-        <item itemvalue="TestNG./Users/rajeshv/Documents/UIAutomation/javawebAutomation/GojekAssignment/src/test/java/TestObject/TestNg.xml" />
+        <item itemvalue="TestNG.CreateWalletTest.caseCadetWalletTest" />
+        <item itemvalue="TestNG.CreateWalletTest.creditWalletTest" />
+        <item itemvalue="TestNG.CreateWalletTest.getWalletDetailsTest" />
+        <item itemvalue="TestNG.CreateWalletTest.createWalletTest" />
+        <item itemvalue="TestNG.Assignment (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -762,42 +722,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Assignment_testApp - 2019.12.24 at 12h 39m 16s.xml">
-      <configuration name="Assignment.testApp" configurationId="TestNG" />
+    <history-entry file="CreateWalletTest_caseCadetWalletTest - 2019.12.31 at 16h 12m 08s.xml">
+      <configuration name="CreateWalletTest.caseCadetWalletTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Assignment_testApp - 2019.12.24 at 12h 43m 04s.xml">
-      <configuration name="Assignment.testApp" configurationId="TestNG" />
+    <history-entry file="CreateWalletTest_caseCadetWalletTest - 2019.12.31 at 16h 12m 38s.xml">
+      <configuration name="CreateWalletTest.caseCadetWalletTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Assignment_testApp - 2019.12.24 at 12h 56m 05s.xml">
-      <configuration name="Assignment.testApp" configurationId="TestNG" />
+    <history-entry file="CreateWalletTest_caseCadetWalletTest - 2019.12.31 at 16h 15m 59s.xml">
+      <configuration name="CreateWalletTest.caseCadetWalletTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Assignment_testApp - 2019.12.24 at 12h 58m 00s.xml">
-      <configuration name="Assignment.testApp" configurationId="TestNG" />
+    <history-entry file="CreateWalletTest_caseCadetWalletTest - 2019.12.31 at 16h 17m 18s.xml">
+      <configuration name="CreateWalletTest.caseCadetWalletTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Assignment_testApp - 2019.12.24 at 12h 58m 57s.xml">
-      <configuration name="Assignment.testApp" configurationId="TestNG" />
+    <history-entry file="CreateWalletTest_caseCadetWalletTest - 2019.12.31 at 16h 50m 52s.xml">
+      <configuration name="CreateWalletTest.caseCadetWalletTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Assignment_testApp - 2019.12.24 at 13h 00m 20s.xml">
-      <configuration name="Assignment.testApp" configurationId="TestNG" />
+    <history-entry file="CreateWalletTest_caseCadetWalletTest - 2019.12.31 at 16h 52m 18s.xml">
+      <configuration name="CreateWalletTest.caseCadetWalletTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Assignment_testApp - 2019.12.24 at 13h 02m 13s.xml">
-      <configuration name="Assignment.testApp" configurationId="TestNG" />
+    <history-entry file="CreateWalletTest_caseCadetWalletTest - 2019.12.31 at 17h 00m 25s.xml">
+      <configuration name="CreateWalletTest.caseCadetWalletTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Assignment_testApp - 2019.12.24 at 13h 22m 06s.xml">
-      <configuration name="Assignment.testApp" configurationId="TestNG" />
+    <history-entry file="CreateWalletTest_caseCadetWalletTest - 2019.12.31 at 17h 01m 48s.xml">
+      <configuration name="CreateWalletTest.caseCadetWalletTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Assignment_testApp - 2019.12.24 at 13h 23m 49s.xml">
-      <configuration name="Assignment.testApp" configurationId="TestNG" />
+    <history-entry file="CreateWalletTest_caseCadetWalletTest - 2019.12.31 at 17h 02m 16s.xml">
+      <configuration name="CreateWalletTest.caseCadetWalletTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Assignment_ProductAddAndCartTest - 2019.12.24 at 13h 42m 29s.xml">
-      <configuration name="Assignment.ProductAddAndCartTest" configurationId="TestNG" />
+    <history-entry file="CreateWalletTest_caseCadetWalletTest - 2019.12.31 at 17h 06m 59s.xml">
+      <configuration name="CreateWalletTest.caseCadetWalletTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="723" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30048466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30533117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -806,13 +766,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49603805" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39936608" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49519232" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32739726" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5752773" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3283582" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -850,7 +810,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/package-info.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/SuiteRunner.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/TestRunner.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/TestMethodWorker.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.14.0/6a4c36c02a1f03bdcf5769bffec9ed530ca51111/selenium-remote-driver-3.14.0-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java" />
@@ -876,7 +835,7 @@
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/TestNG.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/test.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/test1NG.xml" />
-    <entry file="file://$PROJECT_DIR$/src/testConfig.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testConfig.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
@@ -894,58 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/TestNg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/PageBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="592" selection-start-line="592" selection-end-line="592" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="94" column="17" lean-forward="true" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#6308#6309#0" expanded="true" />
-            <element signature="e#6353#6354#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -970,23 +877,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/TestDomMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/Assignment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3797#3798#0" expanded="true" />
-            <element signature="e#3844#3845#0" expanded="true" />
-            <element signature="e#7349#7350#0" expanded="true" />
-            <element signature="e#7396#7397#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/MultipleSearchAssignment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="360">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -994,12 +897,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/Assignment.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/TestNg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        <state relative-caret-position="195">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/TestDomMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/CreateWallet.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObject/PageBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/ClassImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/ClassHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="335" selection-start-line="335" selection-end-line="335" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/15bba08e3a239d54b68209c001f9c911559d2fed/json-simple-1.1.1-sources.jar!/org/json/simple/parser/JSONParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/ObjectFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/CreditWallet.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestObject/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/PropertyReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="71" lean-forward="true" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ApiTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/api/CreateWalletTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="131" column="64" lean-forward="true" selection-start-line="131" selection-start-column="64" selection-end-line="131" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#832#848#0" expanded="true" />
+            <element signature="e#1733#1749#0" expanded="true" />
+            <element signature="e#3332#3348#0" expanded="true" />
           </folding>
         </state>
       </provider>
