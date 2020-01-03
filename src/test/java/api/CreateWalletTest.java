@@ -9,12 +9,15 @@ import org.json.simple.parser.JSONParser;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utils.ApiTestBase;
+import utils.Database;
+
 import java.io.FileReader;
 import java.util.HashMap;
 import java.util.Map;
 
 public class CreateWalletTest extends ApiTestBase {
     JSONParser jsonParser;
+    Database db=new Database();
 
 @Test
     public void createWalletTest() throws Exception{
@@ -48,7 +51,6 @@ public class CreateWalletTest extends ApiTestBase {
     public void getWalletDetailsTest(){
 
     String getWallet = properties.getProperty("getWalletDetails");
-    jsonParser = new JSONParser();
     RequestSpecification requestSpec = RestAssured.given();
     HashMap<String,String > headerMap= new HashMap<String, String>();
 
@@ -73,6 +75,8 @@ public int randomTrans(){
 @Test
     public void creditWalletTest()throws Exception{
     JSONObject obj=null;
+    String result;
+
     String creditWallet=properties.getProperty("creditWallet");
     jsonParser=new JSONParser();
     FileReader reader = new FileReader("src/main/java/api/CreditWallet.json");
@@ -100,7 +104,20 @@ public int randomTrans(){
     int code=response.getStatusCode();
     response.getBody().print();
     System.out.println(response.getBody().jsonPath().getString("payload.transactionDetails.transactionId"));
+    String transId=response.getBody().jsonPath().getString("payload.transactionDetails.transactionId");
     Assert.assertEquals(code,200,"Error on status code");
+
+try {
+    String query = "SELECT *  FROM `quikr_wallet_credit_transaction_details` WHERE `wallet_transaction_id` = '" + transId + "';";
+
+    result = db.GetResultQueryExecutor("escrow_c2c", query);
+
+    System.out.println("userID:" + result);
+}
+catch(Exception e){
+    e.printStackTrace();
+}
+
 
 }
 

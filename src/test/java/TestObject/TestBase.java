@@ -36,7 +36,7 @@ public class TestBase {
         intiConfig();
         initTestData();
         selectBrowser();
-    }
+   }
 
     @BeforeMethod(alwaysRun = true)
     public void driverInit(){
@@ -65,10 +65,31 @@ public class TestBase {
     private void selectBrowser(){
         platform=config.getProperty("PLATFORM");
         if (platform.equalsIgnoreCase("chrome")){
-            WebDriverManager.chromedriver().setup();
-        }else if (platform.equalsIgnoreCase("firefox")){
+//            WebDriverManager.chromedriver().setup();
+//            if(System.getProperty("os.name").equalsIgnoreCase("Linux"))
+//            {
+//                System.setProperty("webdriver.chrome.driver", "/home/" + System.getProperty("user.name") + "/Documents/chromedriver");
+//            }
+//            else
+//            {
+//                System.setProperty("webdriver.chrome.driver", "C:\\Users\\" + System.getProperty("user.name") + "/Documents/chromedriver");
+//            }
+//            capabilities= DesiredCapabilities.chrome();
+//            capabilities.setBrowserName("chrome");
+
+        }else if (platform.equalsIgnoreCase("firefox"))
+//        {
             WebDriverManager.firefoxdriver().setup();
-        }
+//            if(System.getProperty("os.name").equalsIgnoreCase("Linux"))
+//            {
+//                System.setProperty("webdriver.gecko.driver", "/home/" + System.getProperty("user.name") + "/Documents/geckodriver");
+//            }
+//            else {
+//                System.setProperty("webdriver.gecko.driver", "C:\\Users\\" + System.getProperty("user.name") + "/Documents/geckodriver");
+//            }
+//            capabilities= DesiredCapabilities.firefox();
+//            capabilities.setBrowserName("firefox");
+//        }
     }
 
     private void initiateDriver(){

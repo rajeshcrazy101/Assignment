@@ -4,26 +4,35 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 
+import java.io.FileReader;
+import java.io.IOException;
 import java.sql.*;
+import java.util.Properties;
 
 public class Database {
     String JDBC_DRIVER="com.mysql.jdbc.Driver";
     String DBUrl=null;
     String Usrname=null;
     String Pwd=null;
+    public Properties properties;
 
     private final static Logger LOGGER= LoggerFactory.getLogger(Database.class.getName());
 
     public void initiatDb()
     {
-//        DBUrl = getProperties().get("stageDbUrl");
-//        Usrname = getProperties().get("DbUserForStage");
-//        Pwd = getProperties().get("DbPwdForStage");
-
+        properties = new Properties();
+        try {
+            properties.load(new FileReader("src/main/resources/config.properties"));
+            DBUrl = properties.getProperty("stageDbUrl");
+            Usrname = properties.getProperty("DbUserForStage");
+            Pwd = properties.getProperty("DbPwdForStage");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
-    public String GetResultQueryExecutor(String dbName, String queryStatement) throws Exception {
+    public String GetResultQueryExecutor(String dbName, String queryStatement)  {
         //ResultSet resVal = null;
         Connection conn = null;
         Statement stmt = null;
@@ -34,6 +43,7 @@ public class Database {
         initiatDb();
 
         try {
+            System.out.println(dbName);
             Class.forName(JDBC_DRIVER);
             conn = DriverManager.getConnection(DBUrl + dbName, Usrname, Pwd);
 
