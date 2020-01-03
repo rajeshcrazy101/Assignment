@@ -17,7 +17,6 @@ import java.util.Map;
 
 public class CreateWalletTest extends ApiTestBase {
     JSONParser jsonParser;
-    Database db=new Database();
 
 @Test
     public void createWalletTest() throws Exception{
@@ -76,6 +75,7 @@ public int randomTrans(){
     public void creditWalletTest()throws Exception{
     JSONObject obj=null;
     String result;
+    Database db=new Database();
 
     String creditWallet=properties.getProperty("creditWallet");
     jsonParser=new JSONParser();
@@ -103,22 +103,18 @@ public int randomTrans(){
 
     int code=response.getStatusCode();
     response.getBody().print();
-    System.out.println(response.getBody().jsonPath().getString("payload.transactionDetails.transactionId"));
-    String transId=response.getBody().jsonPath().getString("payload.transactionDetails.transactionId");
+    //System.out.println(response.getBody().jsonPath().getString("payload.transactionDetails.transactionId"));
+    String walletId=response.getBody().jsonPath().getString("payload.walletId");
+    System.out.println(walletId);
+  //  String value = transId.toString();
+  //  System.out.println("value:"+value);
     Assert.assertEquals(code,200,"Error on status code");
 
-try {
-    String query = "SELECT *  FROM `quikr_wallet_credit_transaction_details` WHERE `wallet_transaction_id` = '" + transId + "';";
+    String query = "SELECT *  FROM `quikr_wallet_credit_transaction_details` WHERE `wallet_id` = '" + walletId + "';";
 
     result = db.GetResultQueryExecutor("escrow_c2c", query);
 
-    System.out.println("userID:" + result);
-}
-catch(Exception e){
-    e.printStackTrace();
-}
-
-
+    System.out.println("TransId:" + result);
 }
 
 @Test

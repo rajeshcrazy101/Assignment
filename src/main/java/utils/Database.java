@@ -1,7 +1,5 @@
 package utils;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 
 import java.io.FileReader;
@@ -10,13 +8,12 @@ import java.sql.*;
 import java.util.Properties;
 
 public class Database {
-    String JDBC_DRIVER="com.mysql.jdbc.Driver";
-    String DBUrl=null;
-    String Usrname=null;
-    String Pwd=null;
+    public String JDBC_DRIVER="com.mysql.jdbc.Driver";
+    public String DBUrl=null;
+    public String Usrname=null;
+    public String Pwd=null;
     public Properties properties;
 
-    private final static Logger LOGGER= LoggerFactory.getLogger(Database.class.getName());
 
     public void initiatDb()
     {
@@ -43,7 +40,6 @@ public class Database {
         initiatDb();
 
         try {
-            System.out.println(dbName);
             Class.forName(JDBC_DRIVER);
             conn = DriverManager.getConnection(DBUrl + dbName, Usrname, Pwd);
 
@@ -56,7 +52,7 @@ public class Database {
                 rs.beforeFirst();
                 rs.last();
                 rs.getRow();
-                value = rs.getString(1);
+                value = rs.getString(2);
             }
             System.out.println("value:" + value);
         }catch (SQLException sq){

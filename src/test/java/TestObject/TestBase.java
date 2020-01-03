@@ -65,7 +65,7 @@ public class TestBase {
     private void selectBrowser(){
         platform=config.getProperty("PLATFORM");
         if (platform.equalsIgnoreCase("chrome")){
-//            WebDriverManager.chromedriver().setup();
+            WebDriverManager.chromedriver().setup();
 //            if(System.getProperty("os.name").equalsIgnoreCase("Linux"))
 //            {
 //                System.setProperty("webdriver.chrome.driver", "/home/" + System.getProperty("user.name") + "/Documents/chromedriver");
