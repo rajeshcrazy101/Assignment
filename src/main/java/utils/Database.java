@@ -29,7 +29,7 @@ public class Database {
 
     }
 
-    public String GetResultQueryExecutor(String dbName, String queryStatement)  {
+    public String GetResultQueryExecutor(String dbName, String queryStatement,String column)  {
         //ResultSet resVal = null;
         Connection conn = null;
         Statement stmt = null;
@@ -52,7 +52,7 @@ public class Database {
                 rs.beforeFirst();
                 rs.last();
                 rs.getRow();
-                value = rs.getString(2);
+                value = rs.getString(column);
             }
             System.out.println("value:" + value);
         }catch (SQLException sq){

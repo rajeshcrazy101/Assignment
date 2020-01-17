@@ -103,16 +103,13 @@ public int randomTrans(){
 
     int code=response.getStatusCode();
     response.getBody().print();
-    //System.out.println(response.getBody().jsonPath().getString("payload.transactionDetails.transactionId"));
     String walletId=response.getBody().jsonPath().getString("payload.walletId");
     System.out.println(walletId);
-  //  String value = transId.toString();
-  //  System.out.println("value:"+value);
     Assert.assertEquals(code,200,"Error on status code");
 
     String query = "SELECT *  FROM `quikr_wallet_credit_transaction_details` WHERE `wallet_id` = '" + walletId + "';";
 
-    result = db.GetResultQueryExecutor("escrow_c2c", query);
+    result = db.GetResultQueryExecutor("escrow_c2c", query,"wallet_transaction_id");
 
     System.out.println("TransId:" + result);
 }
